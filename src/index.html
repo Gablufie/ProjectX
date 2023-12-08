@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Refurbished Consoles & Gaming Gadgets</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Featured Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>Refurbished Consoles & Gaming Gadgets</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our online store where you can find high-quality refurbished gaming consoles and gadgets. Our mission
+            is to provide affordable and reliable gaming experiences to our customers.</p>
+    </section>
+
+    <section id="products">
+        <h2>Featured Products</h2>
+
+        <!-- Product cards -->
+        <div class="product-card">
+            <div class="product">
+                <img src="ps5.png" alt="Refurbished PS5">
+                <h3>Refurbished PS5</h3>
+                <p>Experience next-gen gaming with our certified refurbished PlayStation 5 consoles.</p>
+            </div>
+
+            <div class="product">
+                <img src="xbox.png" alt="Refurbished Xbox">
+                <h3>Refurbished Xbox</h3>
+                <p>Discover the world of Xbox gaming with our top-notch refurbished Xbox consoles.</p>
+            </div>
+
+            <div class="product">
+                <img src="gaming-gadget.png" alt="Gaming Gadget">
+                <h3>Gaming Gadgets</h3>
+                <p>Explore a variety of gaming gadgets to enhance your gaming setup.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us. We're here to assist you!</p>
+        <!-- Add contact form or contact information here -->
+    </section>
+
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
