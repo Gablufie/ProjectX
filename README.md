@@ -29,6 +29,8 @@ To run the project locally, follow these steps:
    2.Navigate to the project directory:
 
 cd Project-X
+
+
 3.Open the index.html file in your web browser.
 
 4.Testing
@@ -46,7 +48,7 @@ Collaborated with a team member on an about page using pull requests.
 Merged branches and resolved conflicts.
 Simulated a bug, identified the commit, and provided steps to rectify it.
 Updated the README file with project instructions.
-Ensured proper branch management and deleted unnecessary branches
+the I Ensured proper branch management and deleted unnecessary branches
 
 
 
