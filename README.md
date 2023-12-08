@@ -25,3 +25,31 @@ To run the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/Gablufie/Project-X.git
+
+   2.Navigate to the project directory:
+
+cd Project-X
+3.Open the index.html file in your web browser.
+
+4.Testing
+Testing Framework: Cypress
+Test Scripts: Located in the cypress/integration directory.
+To run tests:
+npx cypress run
+
+## Summary
+During the lab exam, we performed the following actions:
+
+Initialized the repository and established the folder structure.
+Created a new branch and developed the homepage.
+Collaborated with a team member on an about page using pull requests.
+Merged branches and resolved conflicts.
+Simulated a bug, identified the commit, and provided steps to rectify it.
+Updated the README file with project instructions.
+Ensured proper branch management and deleted unnecessary branches
+
+
+
+
+
+
